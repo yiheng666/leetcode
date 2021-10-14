@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> advantageCount(vector<int>& nums1, vector<int>& nums2) {
+		//允许重复
         multiset<int> s;
         for (int i:nums1) s.insert(i);
         vector<int> ans(nums1.size(),0);
