@@ -17,11 +17,9 @@ public:
                 }
                 else if (sign == '-'){
                     st.push(-num);
-                    cout << st.top() << endl;
                 }
                 else if (sign == '*'){
                     int top = st.top();
-                    cout << st.top() << endl;
                     st.pop();
                     st.push(top * num);
                 }
